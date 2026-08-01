@@ -1,7 +1,31 @@
 aid: pyn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pyn.png
 name: Pyn
-description: Pyn is a company surfaced as a portfolio company of a16z, accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pyn is an HR automation platform ("Productivity for AI-First Organizations")
+  that helps people teams streamline the employee lifecycle through automated
+  communications, manager enablement, and personalized employee journeys. It
+  offers an HR marketplace of pre-built automation templates plus custom AI agent
+  capabilities covering onboarding, manager nudges and training, company-wide
+  communications, performance-review processes, and Slack-based engagement such
+  as peer recognition and sentiment polling. Pyn connects to 40+ HR, comms, SSO,
+  and AI systems (ADP, Workday, BambooHR, Rippling, Slack, Microsoft Teams, Okta,
+  Anthropic, OpenAI) and can fire outbound webhooks to Zapier, n8n, AutomateNow,
+  or a customer's own systems on key employee moments. Pyn is backed by a16z and
+  Accel. This profile is maintained in the API Evangelist network; Pyn publishes
+  no public REST API or developer portal, so this record captures its security,
+  webhook, and identity surface.
 url: https://raw.githubusercontent.com/api-evangelist/pyn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Human Resources
+- Employee Experience
+- Employee Onboarding
+- Internal Communications
+- HR Automation
+- Employee Engagement
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.pynhq.com/
+- type: Pricing
+  url: https://www.pynhq.com/pricing
+- type: Blog
+  url: https://www.pynhq.com/blog
+- type: Support
+  url: https://intercom.help/pyn/en/collections/3339372-public-pyn-help-support
+- type: Login
+  url: https://app.pyn.ai/sign-in
+- type: TermsOfService
+  url: https://www.pynhq.com/info/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.pynhq.com/info/privacy-policy/
+- type: Security
+  url: https://www.pynhq.com/security/
+- type: Compliance
+  url: https://www.pynhq.com/security/
+- type: VulnerabilityDisclosure
+  url: security/pyn-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/pyn-trust-center.yml
+- type: DomainSecurity
+  url: security/pyn-domain-security.yml
+- type: Webhooks
+  url: asyncapi/pyn-webhooks.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

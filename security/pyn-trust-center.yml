@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.pynhq.com/security/
+url: https://www.pynhq.com/security/
+certifications:
+- SOC 2 Type 2
+- GDPR
+notes: >-
+  Pyn is SOC 2 Type 2 certified (auditor's report available on request) and GDPR
+  compliant. ISO 27001 is referenced only as the compliance posture of the
+  underlying AWS infrastructure, not a Pyn certification, so it is omitted from
+  Pyn's own certification list. Third-party penetration tests every 6 months,
+  daily intrusion scans, AES-256 encryption in transit and at rest.
+evidence:
+- source: https://www.pynhq.com/security/
+  keywords:
+  - soc 2 type 2
+  - gdpr
+  - penetration test
+  - aes-256

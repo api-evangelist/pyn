@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.pynhq.com/catalog/integrations
+spec_type: Webhooks
+summary: >-
+  Pyn documents an outbound webhook capability that fires whenever the platform
+  detects a key employee-lifecycle event (an "employee moment"). Webhooks can
+  target Zapier, n8n, AutomateNow, or a customer's own systems. Pyn publishes no
+  AsyncAPI document and no public event schema catalog; this artifact captures
+  the webhook surface as documented on the integrations page. No published event
+  names, payload schemas, delivery/retry, or signing details are available on the
+  public site, so none are asserted here.
+webhooks:
+- name: employee-moment
+  description: >-
+    Triggered when Pyn detects a key event in the employee lifecycle
+    (onboarding, role change, engagement moment, etc.). Exact event catalog is
+    not publicly documented.
+  direction: outbound
+  transports:
+  - zapier
+  - n8n
+  - automatenow
+  - custom-http
+  status: documented
+notes: >-
+  Event catalog, payload schemas, and security (signatures/secrets) are not
+  published publicly; capture is limited to what the integrations page states.
+  Upgrade to a full AsyncAPI spec if Pyn later publishes an event reference.
