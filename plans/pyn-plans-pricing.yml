@@ -1,0 +1,29 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.pynhq.com/pricing/
+sources:
+- https://www.pynhq.com/pricing/
+- https://www.pynhq.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Interactive pricing slider (10 to 1,000+ employees) showing $1 per employee/month; example shown
+  as 300 employees 'Estimated from $300' and '$3,600 / year'. No named plan tiers.
+plan_count: 1
+currency: USD
+plans:
+- name: Indicative pricing
+  price_text: $1
+  price: 1
+  currency: USD
+  period: month
+  unit: per employee / month
