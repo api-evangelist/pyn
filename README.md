@@ -64,6 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pyn is a company surfaced as a portfolio company of a16z, accel and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Pyn is an HR automation platform ("Productivity for AI-First Organizations") that helps people teams streamline the employee lifecycle through automated communications, manager enablement, and personalized employee journeys. It offers an HR marketplace of pre-built automation templates plus custom AI agent capabilities covering onboarding, manager nudges and training, company-wide communications, performance-review processes, and Slack-based engagement such as peer recognition and sentiment polling. Pyn connects to 40+ HR, comms, SSO, and AI systems (ADP, Workday, BambooHR, Rippling, Slack, Microsoft Teams, Okta, Anthropic, OpenAI) and can fire outbound webhooks to Zapier, n8n, AutomateNow, or a customer's own systems on key employee moments. Pyn is backed by a16z and Accel. This profile is maintained in the API Evangelist network; Pyn publishes no public REST API or developer portal, so this record captures its security, webhook, and identity surface.
 
-Backed by: a16z, accel — https://www.pynhq.com/
+**Areas:** Company · Human Resources · Employee Experience · Employee Onboarding · Internal Communications · HR Automation · Employee Engagement · Artificial Intelligence
+
+## Pyn on APIs.io
+
+Everything profiled for Pyn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pyn/](https://apis.io/providers/pyn/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pyn Webhooks](https://apis.io/asyncapis/pyn/pyn-webhooks/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pyn Domain Security](https://apis.io/security/pyn/pyn-domain-security/)
+- [Pyn Trust Center](https://apis.io/security/pyn/pyn-trust-center/)
+- [Pyn Vulnerability Disclosure](https://apis.io/security/pyn/pyn-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pyn Plans Pricing](https://apis.io/plans/pyn/pyn-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.pynhq.com/)
+- [Pricing](https://www.pynhq.com/pricing)
+- [Support](https://intercom.help/pyn/en/collections/3339372-public-pyn-help-support)
+- [Blog](https://www.pynhq.com/blog)
+- [Security](https://www.pynhq.com/security/)
+- [Compliance](https://www.pynhq.com/security/)
+- [Terms of service](https://www.pynhq.com/info/terms-and-conditions/)
+- [Privacy policy](https://www.pynhq.com/info/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 34.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 75.0 |
+
+**Agent readiness 17.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pyn/](https://apis.io/providers/pyn/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pyn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pyn/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
